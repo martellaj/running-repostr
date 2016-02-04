@@ -1,0 +1,23 @@
+{
+  "name": "running-repostr",
+  "version": "0.1.0",
+  "main": "bin/server.js",
+  "scripts": {
+    "get-logs": "npm run delete-logs && azure site log download repostr",
+    "delete-logs": "rm -rf diagnostics.zip diagnostics",
+    "live-logs": "azure site log tail repostr"
+  },
+  "author": "Joe Martella",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^1.7.5",
+    "typings": "^0.6.5"
+  },
+  "dependencies": {
+    "moment": "^2.11.1",
+    "moment-timezone": "^0.5.0",
+    "node-schedule": "^1.0.0",
+    "q": "^1.4.1",
+    "request": "^2.69.0"
+  }
+}

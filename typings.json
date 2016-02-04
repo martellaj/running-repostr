@@ -1,0 +1,13 @@
+{
+  "dependencies": {},
+  "devDependencies": {},
+  "ambientDependencies": {
+    "Q": "github:DefinitelyTyped/DefinitelyTyped/q/Q.d.ts#aae1368c8ee377f6e9c59c2d6faf1acb3ece7e05",
+    "form-data": "github:DefinitelyTyped/DefinitelyTyped/form-data/form-data.d.ts#bb1b99052bf1d697f0368fbff56898bc1f5a525c",
+    "moment-node": "github:DefinitelyTyped/DefinitelyTyped/moment/moment-node.d.ts#5b0c38ab2bd59980a095c025b11ebb6cc6cbf947",
+    "moment-timezone": "github:DefinitelyTyped/DefinitelyTyped/moment-timezone/moment-timezone.d.ts#5000de60ee0e9663c74b1ac4a06647006f0ae376",
+    "node": "github:DefinitelyTyped/DefinitelyTyped/node/node.d.ts#1c56e368e17bb28ca57577250624ca5bd561aa81",
+    "node-schedule": "github:DefinitelyTyped/DefinitelyTyped/node-schedule/node-schedule.d.ts#c2f9c4c3690b265c9b33519e2c75717c475538b4",
+    "request": "github:DefinitelyTyped/DefinitelyTyped/request/request.d.ts#e252a088123eb595d9d772eb373f41c084360278"
+  }
+}
