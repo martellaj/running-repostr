@@ -137,13 +137,6 @@ function repostUnansweredCommentsFromYesterday (comments: string[], token: strin
  * @param token A reddit API access token.
  */
 function repostComment (comment: string, threadId: string, token: string) {
-  // A debug flag to not dirty up actual threads.
-  if (true) {
-    console.log('The debug flag is on!');
-    threadId = '40l110';
-    comment = comment.replace('/u/', '');
-  }
-  
   var postCommentRequest = {
     url: 'https://oauth.reddit.com/api/comment?api_type=json&text=' + encodeURIComponent(comment) + '&thing_id=t3_' + threadId,
     headers: {
