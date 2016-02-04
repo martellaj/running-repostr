@@ -5,7 +5,7 @@ import moment = require('moment');
 
 console.log('>>> Setting up the schedule...');
 
-scheduler.scheduleJob({ hour: 16, minute: 30 }, function () {
+scheduler.scheduleJob({ hour: 14, minute: 0 }, function () {
   console.log('>>> Starting job...');
   reddit.repostUnansweredQuestionsFromYesterday();  
 });
