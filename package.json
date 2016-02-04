@@ -3,9 +3,9 @@
   "version": "0.1.0",
   "main": "bin/server.js",
   "scripts": {
-    "get-logs": "npm run delete-logs && azure site log download repostr",
+    "get-logs": "npm run delete-logs && azure site log download running-repostr",
     "delete-logs": "rm -rf diagnostics.zip diagnostics",
-    "live-logs": "azure site log tail repostr"
+    "live-logs": "azure site log tail running-repostr"
   },
   "author": "Joe Martella",
   "license": "MIT",
