@@ -87,11 +87,6 @@ function repostUnansweredCommentsFromYesterday(comments, token) {
     });
 }
 function repostComment(comment, threadId, token) {
-    if (true) {
-        console.log('The debug flag is on!');
-        threadId = '40l110';
-        comment = comment.replace('/u/', '');
-    }
     var postCommentRequest = {
         url: 'https://oauth.reddit.com/api/comment?api_type=json&text=' + encodeURIComponent(comment) + '&thing_id=t3_' + threadId,
         headers: {
